@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89B7758C1DBC0B2F002156C0 /* Canoodle.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89B7758B1DBC0B2F002156C0 /* Canoodle.otf */; };
+		89B775AC1DBC1F70002156C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B775AB1DBC1F70002156C0 /* Assets.xcassets */; };
 		F692B5AD1DBBF15300F7FE95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F692B5AC1DBBF15300F7FE95 /* AppDelegate.swift */; };
 		F692B5AF1DBBF15300F7FE95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F692B5AE1DBBF15300F7FE95 /* ViewController.swift */; };
 		F692B5B21DBBF15300F7FE95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F692B5B01DBBF15300F7FE95 /* Main.storyboard */; };
-		F692B5B41DBBF15300F7FE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F692B5B31DBBF15300F7FE95 /* Assets.xcassets */; };
 		F692B5B71DBBF15300F7FE95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F692B5B51DBBF15300F7FE95 /* LaunchScreen.storyboard */; };
 		F692B5C21DBBF15300F7FE95 /* MemehubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F692B5C11DBBF15300F7FE95 /* MemehubTests.swift */; };
 		F692B5CD1DBBF15300F7FE95 /* MemehubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F692B5CC1DBBF15300F7FE95 /* MemehubUITests.swift */; };
@@ -34,11 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89B7758B1DBC0B2F002156C0 /* Canoodle.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Canoodle.otf; path = Resources/Canoodle.otf; sourceTree = "<group>"; };
+		89B775AB1DBC1F70002156C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F692B5A91DBBF15300F7FE95 /* Memehub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memehub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F692B5AC1DBBF15300F7FE95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F692B5AE1DBBF15300F7FE95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F692B5B11DBBF15300F7FE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F692B5B31DBBF15300F7FE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F692B5B61DBBF15300F7FE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F692B5B81DBBF15300F7FE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F692B5BD1DBBF15300F7FE95 /* MemehubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemehubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 		F692B5A01DBBF15300F7FE95 = {
 			isa = PBXGroup;
 			children = (
+				89B7758B1DBC0B2F002156C0 /* Canoodle.otf */,
 				F692B5AB1DBBF15300F7FE95 /* Memehub */,
 				F692B5C01DBBF15300F7FE95 /* MemehubTests */,
 				F692B5CB1DBBF15300F7FE95 /* MemehubUITests */,
@@ -97,10 +100,10 @@
 		F692B5AB1DBBF15300F7FE95 /* Memehub */ = {
 			isa = PBXGroup;
 			children = (
+				89B775AB1DBC1F70002156C0 /* Assets.xcassets */,
 				F692B5AC1DBBF15300F7FE95 /* AppDelegate.swift */,
 				F692B5AE1DBBF15300F7FE95 /* ViewController.swift */,
 				F692B5B01DBBF15300F7FE95 /* Main.storyboard */,
-				F692B5B31DBBF15300F7FE95 /* Assets.xcassets */,
 				F692B5B51DBBF15300F7FE95 /* LaunchScreen.storyboard */,
 				F692B5B81DBBF15300F7FE95 /* Info.plist */,
 			);
@@ -235,8 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B7758C1DBC0B2F002156C0 /* Canoodle.otf in Resources */,
 				F692B5B71DBBF15300F7FE95 /* LaunchScreen.storyboard in Resources */,
-				F692B5B41DBBF15300F7FE95 /* Assets.xcassets in Resources */,
+				89B775AC1DBC1F70002156C0 /* Assets.xcassets in Resources */,
 				F692B5B21DBBF15300F7FE95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +520,7 @@
 				F692B5D31DBBF15300F7FE95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F692B5D41DBBF15300F7FE95 /* Build configuration list for PBXNativeTarget "MemehubTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				F692B5D61DBBF15300F7FE95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F692B5D71DBBF15300F7FE95 /* Build configuration list for PBXNativeTarget "MemehubUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				F692B5D91DBBF15300F7FE95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
