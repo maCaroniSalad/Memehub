@@ -62,7 +62,7 @@
                                     <segue destination="uAo-3z-97D" kind="show" id="FN7-Xc-RUS"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme1" translatesAutoresizingMaskIntoConstraints="NO" id="CPw-Tn-5Zu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme21" translatesAutoresizingMaskIntoConstraints="NO" id="CPw-Tn-5Zu">
                                 <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -115,7 +115,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BoW-wZ-jbE" kind="show" id="MzY-IB-bHk"/>
+                                    <segue destination="BoW-wZ-jbE" kind="show" id="9cW-Dj-dyt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoJ-Sh-Rsf">
@@ -127,10 +127,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BoW-wZ-jbE" kind="show" id="gTa-mM-0Aw"/>
+                                    <segue destination="BoW-wZ-jbE" kind="show" id="FkP-Fv-6Nb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme14" translatesAutoresizingMaskIntoConstraints="NO" id="36W-K8-Z4W">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme8" translatesAutoresizingMaskIntoConstraints="NO" id="36W-K8-Z4W">
                                 <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -182,6 +182,9 @@
                                 <state key="normal" title="GENERATE NEW MEME">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="uqr-jM-BpB" kind="show" id="3Ej-aP-i80"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yk4-Pc-E8I">
                                 <frame key="frameInset" minX="197" minY="482" width="130" height="44"/>
@@ -191,8 +194,11 @@
                                 <state key="normal" title="DISLIKE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="uqr-jM-BpB" kind="show" id="sHr-9g-rdQ"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme8" translatesAutoresizingMaskIntoConstraints="NO" id="AoN-90-YVQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme14" translatesAutoresizingMaskIntoConstraints="NO" id="AoN-90-YVQ">
                                 <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -209,14 +215,684 @@
             </objects>
             <point key="canvasLocation" x="129" y="1614"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="x4Y-xU-Swo">
+            <objects>
+                <viewController id="uqr-jM-BpB" customClass="ViewController" customModule="Memehub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B7E-o4-rXb"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xxo-mS-3qA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rNA-cf-18C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MemeHub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtZ-i0-F8H">
+                                <frame key="frameInset" minX="83" minY="62" width="208" height="71"/>
+                                <fontDescription key="fontDescription" name="DKCanoodle-Regular" family="DK Canoodle" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qai-6c-999">
+                                <frame key="frameInset" minX="46" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="LIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1J-4c-m3A">
+                                <frame key="frameInset" minX="46" minY="547" width="282" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="GENERATE NEW MEME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="t62-gW-M8W" kind="show" id="Pvp-MJ-eS5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5l-d3-YSs">
+                                <frame key="frameInset" minX="197" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="DISLIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="t62-gW-M8W" kind="show" id="zRA-qt-UO5"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme16" translatesAutoresizingMaskIntoConstraints="NO" id="sgj-aa-lGJ">
+                                <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xtZ-i0-F8H" firstAttribute="leading" secondItem="rNA-cf-18C" secondAttribute="leading" id="92Z-3f-Ocv"/>
+                            <constraint firstAttribute="trailing" secondItem="xtZ-i0-F8H" secondAttribute="trailing" id="lYX-hd-SMN"/>
+                            <constraint firstItem="xtZ-i0-F8H" firstAttribute="top" secondItem="B7E-o4-rXb" secondAttribute="bottom" constant="50" id="xS7-lU-CgG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HIs-vP-c9g" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="2427"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="C0m-ZZ-pNH">
+            <objects>
+                <viewController id="UMM-MO-Bcg" customClass="ViewController" customModule="Memehub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pq1-Fy-ldw"/>
+                        <viewControllerLayoutGuide type="bottom" id="9zg-Jr-krX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="huY-qU-aJL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MemeHub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2i-MQ-Wsz">
+                                <frame key="frameInset" minX="83" minY="62" width="208" height="71"/>
+                                <fontDescription key="fontDescription" name="DKCanoodle-Regular" family="DK Canoodle" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViQ-Ky-Oby">
+                                <frame key="frameInset" minX="46" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="LIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7p-6Y-wxg">
+                                <frame key="frameInset" minX="46" minY="547" width="282" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="GENERATE NEW MEME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmP-oh-enh">
+                                <frame key="frameInset" minX="197" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="DISLIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme14" translatesAutoresizingMaskIntoConstraints="NO" id="kwf-qQ-vH7">
+                                <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="m2i-MQ-Wsz" secondAttribute="trailing" id="0RF-J1-WVC"/>
+                            <constraint firstItem="m2i-MQ-Wsz" firstAttribute="top" secondItem="Pq1-Fy-ldw" secondAttribute="bottom" constant="50" id="Z0L-5y-5YY"/>
+                            <constraint firstItem="m2i-MQ-Wsz" firstAttribute="leading" secondItem="huY-qU-aJL" secondAttribute="leading" id="gGY-o7-wz8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rdw-ut-Qw3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="3179"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gSs-44-3Ix">
+            <objects>
+                <viewController id="x8c-Fv-bPC" customClass="ViewController" customModule="Memehub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DKz-aY-pQi"/>
+                        <viewControllerLayoutGuide type="bottom" id="eyR-G3-9Ll"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kdm-Uf-e3V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MemeHub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pcf-eO-5Cl">
+                                <frame key="frameInset" minX="83" minY="62" width="208" height="71"/>
+                                <fontDescription key="fontDescription" name="DKCanoodle-Regular" family="DK Canoodle" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1G-7p-TlG">
+                                <frame key="frameInset" minX="46" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="LIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QmQ-a9-QV0">
+                                <frame key="frameInset" minX="46" minY="547" width="282" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="GENERATE NEW MEME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IHb-Ol-AcB" kind="show" id="ezJ-Dt-yYc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDI-MU-7RF">
+                                <frame key="frameInset" minX="197" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="DISLIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IHb-Ol-AcB" kind="show" id="omg-mF-Bwv"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme4" translatesAutoresizingMaskIntoConstraints="NO" id="1pR-Fg-RCB">
+                                <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Pcf-eO-5Cl" firstAttribute="top" secondItem="DKz-aY-pQi" secondAttribute="bottom" constant="50" id="4fJ-v3-Y5s"/>
+                            <constraint firstItem="Pcf-eO-5Cl" firstAttribute="leading" secondItem="kdm-Uf-e3V" secondAttribute="leading" id="59b-x1-zId"/>
+                            <constraint firstAttribute="trailing" secondItem="Pcf-eO-5Cl" secondAttribute="trailing" id="5Qu-S2-EWD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pnd-w8-DFo" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118" y="5488"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gVW-xG-Oqc">
+            <objects>
+                <viewController id="EyP-82-zaC" customClass="ViewController" customModule="Memehub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z1S-h3-rXz"/>
+                        <viewControllerLayoutGuide type="bottom" id="wzX-GU-QU9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vDh-Kw-StH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MemeHub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eef-aS-BGg">
+                                <frame key="frameInset" minX="83" minY="62" width="208" height="71"/>
+                                <fontDescription key="fontDescription" name="DKCanoodle-Regular" family="DK Canoodle" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iX0-8E-RNN">
+                                <frame key="frameInset" minX="46" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="LIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYK-Ya-O9x">
+                                <frame key="frameInset" minX="46" minY="547" width="282" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="GENERATE NEW MEME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7q-av-X0B">
+                                <frame key="frameInset" minX="197" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="DISLIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme14" translatesAutoresizingMaskIntoConstraints="NO" id="vGj-NC-q5F">
+                                <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eef-aS-BGg" firstAttribute="leading" secondItem="vDh-Kw-StH" secondAttribute="leading" id="PHJ-Qs-ryo"/>
+                            <constraint firstAttribute="trailing" secondItem="eef-aS-BGg" secondAttribute="trailing" id="VOW-Pj-PEr"/>
+                            <constraint firstItem="eef-aS-BGg" firstAttribute="top" secondItem="z1S-h3-rXz" secondAttribute="bottom" constant="50" id="s9C-ap-bvQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lGX-li-9Lt" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="3179"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dRV-u8-cYD">
+            <objects>
+                <viewController id="t62-gW-M8W" customClass="ViewController" customModule="Memehub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PEg-ca-koz"/>
+                        <viewControllerLayoutGuide type="bottom" id="X2M-6a-KRg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W3M-l0-uGH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MemeHub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1Z-PN-anZ">
+                                <frame key="frameInset" minX="83" minY="62" width="208" height="71"/>
+                                <fontDescription key="fontDescription" name="DKCanoodle-Regular" family="DK Canoodle" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eed-CY-UNf">
+                                <frame key="frameInset" minX="46" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="LIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeG-4Z-ezL">
+                                <frame key="frameInset" minX="46" minY="547" width="282" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="GENERATE NEW MEME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Cuw-zI-kN2" kind="show" id="vRN-25-B7J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNK-JM-fWV">
+                                <frame key="frameInset" minX="197" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="DISLIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Cuw-zI-kN2" kind="show" id="i1O-5A-8qh"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme17" translatesAutoresizingMaskIntoConstraints="NO" id="z1C-tU-iSN">
+                                <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a1Z-PN-anZ" firstAttribute="leading" secondItem="W3M-l0-uGH" secondAttribute="leading" id="LWV-lR-U5a"/>
+                            <constraint firstAttribute="trailing" secondItem="a1Z-PN-anZ" secondAttribute="trailing" id="whS-RY-DbL"/>
+                            <constraint firstItem="a1Z-PN-anZ" firstAttribute="top" secondItem="PEg-ca-koz" secondAttribute="bottom" constant="50" id="wjL-0F-0RA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YnQ-xx-PPC" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="3179"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xf6-Nm-o0j">
+            <objects>
+                <viewController id="cEL-xu-cOK" customClass="ViewController" customModule="Memehub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ABA-91-ofJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="MuS-w1-28c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y3y-3u-3FC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MemeHub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y77-2u-ry5">
+                                <frame key="frameInset" minX="83" minY="62" width="208" height="71"/>
+                                <fontDescription key="fontDescription" name="DKCanoodle-Regular" family="DK Canoodle" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAD-I1-uBe">
+                                <frame key="frameInset" minX="46" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="LIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZt-wh-zHc">
+                                <frame key="frameInset" minX="46" minY="547" width="282" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="GENERATE NEW MEME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNh-Zq-dcU">
+                                <frame key="frameInset" minX="197" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="DISLIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme14" translatesAutoresizingMaskIntoConstraints="NO" id="oBd-Yo-R7l">
+                                <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Y77-2u-ry5" secondAttribute="trailing" id="2tU-f5-S1z"/>
+                            <constraint firstItem="Y77-2u-ry5" firstAttribute="top" secondItem="ABA-91-ofJ" secondAttribute="bottom" constant="50" id="glw-tp-Otr"/>
+                            <constraint firstItem="Y77-2u-ry5" firstAttribute="leading" secondItem="Y3y-3u-3FC" secondAttribute="leading" id="uEO-6U-utl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="51d-RG-3Wf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="146" y="3910"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="U0H-Fx-XgX">
+            <objects>
+                <viewController id="Cuw-zI-kN2" customClass="ViewController" customModule="Memehub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ju8-6U-Uar"/>
+                        <viewControllerLayoutGuide type="bottom" id="4DI-x9-htg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V8Q-z4-EIw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MemeHub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31B-pq-wpT">
+                                <frame key="frameInset" minX="83" minY="62" width="208" height="71"/>
+                                <fontDescription key="fontDescription" name="DKCanoodle-Regular" family="DK Canoodle" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcY-hw-zdi">
+                                <frame key="frameInset" minX="46" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="LIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZx-YE-gj1">
+                                <frame key="frameInset" minX="46" minY="547" width="282" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="GENERATE NEW MEME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tw6-Kv-mEm" kind="show" id="Fep-ot-qhJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCf-AT-Cbf">
+                                <frame key="frameInset" minX="197" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="DISLIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tw6-Kv-mEm" kind="show" id="x7U-gd-hG5"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme13" translatesAutoresizingMaskIntoConstraints="NO" id="Tuk-QG-AgX">
+                                <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="31B-pq-wpT" firstAttribute="top" secondItem="ju8-6U-Uar" secondAttribute="bottom" constant="50" id="Mjd-iJ-s3l"/>
+                            <constraint firstItem="31B-pq-wpT" firstAttribute="leading" secondItem="V8Q-z4-EIw" secondAttribute="leading" id="ihT-Qx-LQU"/>
+                            <constraint firstAttribute="trailing" secondItem="31B-pq-wpT" secondAttribute="trailing" id="znT-Os-XyG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SSN-7k-EPr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="146" y="3910"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="h9P-po-gTJ">
+            <objects>
+                <viewController id="tw6-Kv-mEm" customClass="ViewController" customModule="Memehub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nFM-Vl-OCx"/>
+                        <viewControllerLayoutGuide type="bottom" id="4PV-ur-Gh0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ro8-ax-xxE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MemeHub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWO-zW-du0">
+                                <frame key="frameInset" minX="83" minY="62" width="208" height="71"/>
+                                <fontDescription key="fontDescription" name="DKCanoodle-Regular" family="DK Canoodle" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLO-zJ-CXP">
+                                <frame key="frameInset" minX="46" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="LIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaG-JM-o8k">
+                                <frame key="frameInset" minX="46" minY="547" width="282" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="GENERATE NEW MEME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="x8c-Fv-bPC" kind="show" id="nj9-Bz-oz6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6a-6j-o0q">
+                                <frame key="frameInset" minX="197" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="DISLIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="x8c-Fv-bPC" kind="show" id="W3m-My-6zA"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme7" translatesAutoresizingMaskIntoConstraints="NO" id="4dC-ou-H9e">
+                                <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pWO-zW-du0" firstAttribute="top" secondItem="nFM-Vl-OCx" secondAttribute="bottom" constant="50" id="7aD-Za-lVQ"/>
+                            <constraint firstItem="pWO-zW-du0" firstAttribute="leading" secondItem="ro8-ax-xxE" secondAttribute="leading" id="Eor-Wz-7TB"/>
+                            <constraint firstAttribute="trailing" secondItem="pWO-zW-du0" secondAttribute="trailing" id="oi1-uh-Yv7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7SD-o4-BB4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118" y="4688"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="naw-zU-yCL">
+            <objects>
+                <viewController id="IHb-Ol-AcB" customClass="ViewController" customModule="Memehub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uhy-6g-gc4"/>
+                        <viewControllerLayoutGuide type="bottom" id="XXL-LW-W6C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FtZ-q2-6pF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MemeHub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEg-Fz-fA4">
+                                <frame key="frameInset" minX="83" minY="62" width="208" height="71"/>
+                                <fontDescription key="fontDescription" name="DKCanoodle-Regular" family="DK Canoodle" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDh-4I-rfW">
+                                <frame key="frameInset" minX="46" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="LIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqg-Ds-q9V">
+                                <frame key="frameInset" minX="46" minY="547" width="282" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="GENERATE NEW MEME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aM1-gR-om9" kind="show" id="sIr-it-gFs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5F-j5-eB9">
+                                <frame key="frameInset" minX="197" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="DISLIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aM1-gR-om9" kind="show" id="Dih-Mv-XO0"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme5" translatesAutoresizingMaskIntoConstraints="NO" id="g49-Dh-BCY">
+                                <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XEg-Fz-fA4" firstAttribute="leading" secondItem="FtZ-q2-6pF" secondAttribute="leading" id="FpU-YC-Hbt"/>
+                            <constraint firstAttribute="trailing" secondItem="XEg-Fz-fA4" secondAttribute="trailing" id="LBW-Zf-zvh"/>
+                            <constraint firstItem="XEg-Fz-fA4" firstAttribute="top" secondItem="Uhy-6g-gc4" secondAttribute="bottom" constant="50" id="ZbH-gh-lgy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ewa-Cy-0rs" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="6224"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bKr-oF-nfC">
+            <objects>
+                <viewController id="aM1-gR-om9" customClass="ViewController" customModule="Memehub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HEP-DJ-r6J"/>
+                        <viewControllerLayoutGuide type="bottom" id="yKc-mT-gZT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LQ0-HX-qDR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MemeHub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Zv-m7-Mi0">
+                                <frame key="frameInset" minX="83" minY="62" width="208" height="71"/>
+                                <fontDescription key="fontDescription" name="DKCanoodle-Regular" family="DK Canoodle" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydJ-9x-jud">
+                                <frame key="frameInset" minX="46" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="LIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IsF-eO-85d">
+                                <frame key="frameInset" minX="46" minY="547" width="282" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="GENERATE NEW MEME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ez-JV-qPn">
+                                <frame key="frameInset" minX="197" minY="482" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16860415819999999" green="0.3516799028" blue="0.89728743649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="DISLIKE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meme6" translatesAutoresizingMaskIntoConstraints="NO" id="S9K-UM-dDG">
+                                <frame key="frameInset" minX="46" minY="170" width="281" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Zv-m7-Mi0" firstAttribute="top" secondItem="HEP-DJ-r6J" secondAttribute="bottom" constant="50" id="VVx-YG-1gX"/>
+                            <constraint firstAttribute="trailing" secondItem="7Zv-m7-Mi0" secondAttribute="trailing" id="gOq-Tr-aa5"/>
+                            <constraint firstItem="7Zv-m7-Mi0" firstAttribute="leading" secondItem="LQ0-HX-qDR" secondAttribute="leading" id="ptJ-qx-EqN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i3v-C0-3hI" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="7031"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="meme1" width="648" height="804"/>
+        <image name="meme13" width="728" height="820"/>
         <image name="meme14" width="800" height="628"/>
+        <image name="meme16" width="800" height="560"/>
+        <image name="meme17" width="750" height="561"/>
+        <image name="meme21" width="749" height="644"/>
+        <image name="meme4" width="747" height="673"/>
+        <image name="meme5" width="540" height="558"/>
+        <image name="meme6" width="716" height="820"/>
+        <image name="meme7" width="800" height="656"/>
         <image name="meme8" width="534" height="739"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="JTM-rO-a7s"/>
-        <segue reference="MzY-IB-bHk"/>
+        <segue reference="FkP-Fv-6Nb"/>
+        <segue reference="sHr-9g-rdQ"/>
+        <segue reference="zRA-qt-UO5"/>
+        <segue reference="vRN-25-B7J"/>
+        <segue reference="x7U-gd-hG5"/>
+        <segue reference="nj9-Bz-oz6"/>
+        <segue reference="omg-mF-Bwv"/>
+        <segue reference="sIr-it-gFs"/>
     </inferredMetricsTieBreakers>
 </document>
