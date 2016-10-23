@@ -196,7 +196,7 @@
 				TargetAttributes = {
 					F692B5A81DBBF15300F7FE95 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 56PHWUGM56;
+						DevelopmentTeam = 68F9AMZ427;
 						ProvisioningStyle = Automatic;
 					};
 					F692B5BC1DBBF15300F7FE95 = {
@@ -419,11 +419,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 56PHWUGM56;
+				DEVELOPMENT_TEAM = 68F9AMZ427;
 				INFOPLIST_FILE = Memehub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maCaroniSalad.Memehub;
+				PRODUCT_BUNDLE_IDENTIFIER = maCaroniSalad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -433,11 +433,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 56PHWUGM56;
+				DEVELOPMENT_TEAM = 68F9AMZ427;
 				INFOPLIST_FILE = Memehub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maCaroniSalad.Memehub;
+				PRODUCT_BUNDLE_IDENTIFIER = maCaroniSalad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
